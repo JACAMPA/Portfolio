@@ -1,0 +1,122 @@
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    background: black;
+    line-height: 1.0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+    font-size: 16px;
+    
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: snow;
+}
+li, a, button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.nav__links {
+    list-style: none;
+    
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color:turquoise;
+}
+button {
+    padding: 9px 25px;
+    background-color: snow;
+    border: none;
+    border-radius: 50px;
+}
+button:hover {
+    background-color:turquoise;
+}
+main{
+    background-color:turquoise;
+    padding: 10px;
+    width: 100%;
+
+}
+section h2 {
+   font-size: 50px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+ }
+ 
+section h3 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: center;
+    background-color: turquoise;
+    
+}
+ section img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%; 
+    float:var(100%);
+    margin-top: -250px;
+    margin-left: 1000px;  
+}
+h4 {
+    background-color: black;
+    color: snow;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0px;
+    text-align: center;
+
+}
+#one{
+    color: snow;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+}
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: turquoise;
+    padding: 50px;
+    margin: 0px;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px ;
+    margin: 0px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: turquoise;
+    margin: 0px;
+}
